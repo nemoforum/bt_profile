@@ -1,5 +1,7 @@
 # BT_PROFILE
 
+## Archiving, I no longer need this
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Donate](paypal.svg?raw=true)](https://www.paypal.me/ugjka)
 
@@ -17,6 +19,8 @@ Usage of bt_profile:
   -sink string
         headset's pulseaudio sink (default "1")
 ```
+
+* custom codecs are supported by https://github.com/EHfive/pulseaudio-modules-bt
 
 ## Example
 
@@ -42,7 +46,7 @@ Archlinux PKGBUILD in the archlinux folder
 
 ### Using make
 
-You need make, go, go-tools
+You need make, go, go-tools, libappindicator-gtk3
 
 Build with `make`
 
